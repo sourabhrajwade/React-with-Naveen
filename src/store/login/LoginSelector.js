@@ -1,0 +1,1 @@
+// For getting piece of state
