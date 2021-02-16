@@ -1,0 +1,15 @@
+
+.loginform-container {
+    
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-text {
+    padding: 20px;
+}
+.login-header {
+    color: blue;
+}
