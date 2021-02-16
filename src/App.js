@@ -1,10 +1,12 @@
 import React from "react";
-import LoginScreen from './login/screens/LoginScreen';
+import Router from "./Router";
+import { Provider } from "react-redux";
+import { store} from "./store/Store";
 
 const App = () => {
-  return (<LoginScreen />)
-  
-}
+  <Provider store={store}>
+    <Router />;
+  </Provider>;
+};
 
 export default App;
-
