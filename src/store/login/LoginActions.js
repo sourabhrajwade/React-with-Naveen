@@ -4,10 +4,10 @@ const actionTypes = {
 const loginActions = {
     loginRequest: ( payload ) => {
         return {
-            action: actionTypes.LOGIN_REQUEST, 
+            type: actionTypes.LOGIN_REQUEST, 
             payload: payload
         }
     }
 };
 
-export {actionTypes, loginActions};
+export {actionTypes, loginActions}
